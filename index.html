@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remove items from a dropdown list</title>
+  </head>
+  <body>
+    <select id="colorselect">
+      <option>RED</option>
+      <option>GREEN</option>
+      <option>WHITE</option>
+      <option>BLACK</option>
+    </select>
+    <input type="button" onclick="removecolor()" value="select and remove" />
+    <p id="txtcolorchange">CRISTIANO RONALDO</p>
+    <input type="button" value="changecolor" onclick="changecolor()" />
+    <input type="color" id="colorpick" />
+  
+
+    <form id="form1">
+      First name: <input type="text" name="fname" value="David" /><br />
+      Last name: <input type="text" name="lname" value="Beckham" /><br />
+      <input type="button" value="Submit" onclick="getNames()" />
+    </form>
+
+    <button onclick="displayRandomImage()">Show Random Image</button>
+    <br /><br />
+    <img id="randomImage" src="" alt="Random Image" />
+    <script src="./script.js"></script>
+  </body>
+</html>
